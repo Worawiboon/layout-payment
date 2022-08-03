@@ -1,0 +1,299 @@
+body{
+    margin: 0;
+    padding: 0;   
+}
+*:focus {
+    outline: 0 !important;
+}
+.header{
+    background-color: white;
+    height: 50px;
+}
+.sidepanel  {
+    width: 0;
+    position: fixed;
+    z-index: 5;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  
+  }
+  .sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidepanel a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+  .hambarger-btn{
+      font-size: 25px;
+  }
+  .openbtn {
+    background: none;
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    padding-right: 5px;
+    margin-top: 4px;
+    display: block;
+    /* border: 2px black solid;
+    border-radius: 10px; */
+  }
+.img-lock{
+    float: left;
+    display: none;
+}
+.text-lock{
+    float: left;
+    
+}
+.text-lock-h1 {
+    font-weight: bold;
+    font-size: 16px;
+    display: none;
+}
+.text-lock-h2 {
+    float: left;
+    font-size: 10px;
+    display: none;
+}
+.shopping-information {
+    background: #ffffff;
+    height: auto;
+    color: #2b2b2b;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    padding: 24px;
+}
+.payment-information {
+    width: 100%;
+    background: #ffffff;
+    height: auto;
+    color: #2b2b2b;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    padding: 24px;
+}
+.input-form {
+    color: #2b2b2b;
+    background: none;
+    height: 45px;
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid gainsboro;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+.select-option {
+    background: whitesmoke;
+    height: 45px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    padding-left: 5px;
+    margin-top: 20px;
+    float: left;
+}
+.btn-sub {
+    background: #00b472;
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.2s;
+    font-size: 18px;
+    color: white;
+    /* font-weight: bold; */
+}
+.btn-sub:hover {
+    background: #005838;
+    transition: ease-in-out 0.25s;
+}
+.order-summary{
+    background: #ffffff;
+    height: auto;
+    color: #2b2b2b;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    padding: 24px;
+}
+.circle {
+    background: skyblue;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    margin-top: 5px;
+    margin-right: 15px;
+}
+.xxl {
+    border: 1.5px solid #000000;
+    font-size: 10px;
+    border-radius: 5px;
+    width: 40px;
+    margin-left: 15px;
+    margin-top: 3px;
+}
+.float-left {
+    float: left;
+}
+
+.col4-b {
+    width: 100%;
+    background:#2c374b;
+    height: auto;
+    color: #ffffff;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    padding: 24px;
+}
+.color-green {
+    color:#00b472;
+}
+
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* The actual popup */
+  .popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+  }
+  
+  /* Popup arrow */
+  .popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+/* Toggle this class - hide and show the popup */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+  
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+
+.text-security1{
+    display: none;
+}
+
+
+@media (min-width: 576px){
+    
+    .img-lock{
+        float: left;
+        display: none;
+    }
+    .text-lock-h1 {
+        font-weight: bold;
+        font-size: 16px;
+        display: none;
+    }
+    .text-lock-h2 {
+        float: left;
+        font-size: 10px;
+        display: none;
+    }
+    
+}
+@media (min-width: 768px){
+    .openbtn{
+        display: block;
+    }
+     .img-lock{
+        float: left;
+        display: none;
+    }
+    .text-lock-h1 {
+        font-weight: bold;
+        font-size: 16px;
+        display: none;
+    }
+    .text-lock-h2 {
+        float: left;
+        font-size: 10px;
+        display: none;
+    }
+    .label-form {
+        margin-top: 15px;
+    }
+}
+@media (min-width: 1400px){
+    .openbtn{
+        display: none;
+    }
+     .img-lock{
+        float: left;
+        display: block;
+    }
+    .text-lock-h1 {
+        font-weight: bold;
+        font-size: 16px;
+        display: block;
+    }
+    .text-lock-h2 {
+        float: left;
+        font-size: 10px;
+        display: block;
+    }
+    .label-form {
+        margin-top: 15px;
+    }
+}
+@media(min-width: 992px){
+    .text-security1{
+        display: block;
+    }
+    .text-security2{
+        display: none;
+    }
+}
